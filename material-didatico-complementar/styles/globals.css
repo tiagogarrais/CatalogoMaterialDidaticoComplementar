@@ -1,0 +1,43 @@
+html,
+body {
+  padding: 0;
+  margin: 1;
+  font-family: Ubuntu;
+}
+
+h1, h2, h3, h4, h5, h6{
+  text-align: center;
+}
+
+p{
+  text-align: justify;
+}
+
+a {
+  color: rgb(66, 77, 230);
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.cartao {
+  display: inline-flex;
+  max-width: 350px;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/* On mouse-over, add a deeper shadow */
+.cartao:hover {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.conteudo {
+  padding: 5px 15px;
+  border-radius: 5px;
+  /* Add shadows to create the "card" effect */
+}
